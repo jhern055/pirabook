@@ -12,7 +12,7 @@ class Checkout extends CI_Controller {
 
 	}
 
-	public function index(){
+	public function index(){ 
 	// $data['main_content']='catalog/checkout/checkout_pcel';
 	$data['main_content']='catalog/checkout/checkout';
 	$data['common_right']=false;
